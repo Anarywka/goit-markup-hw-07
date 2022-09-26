@@ -1,0 +1,36 @@
+.section-cards {
+    background-color: var(--buttons-background-color);
+
+
+    &__list {
+            display: flex;
+        }
+    &__item {
+        background-color: var(--secondary-text-color);
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 1px 3px rgba(0, 0, 0, 0.12);
+    }
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    &__desc {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+    }
+
+    &__text {
+        margin-top: 10px;
+        line-height: 1.19;
+        text-align: center;
+        color: var(--section-text-color);
+        margin-bottom: 16px;
+    }
+}
+
